@@ -11,6 +11,6 @@ current_time = now.strftime("%Y-%m-%d %H:%M:%S")
 print("Current date and time:", current_time)
 
 password = os.getenv('PASSWORD')
-print('hello world! >>>>> ' + password)
+# print('hello world! >>>>> ' + password)
 
 
