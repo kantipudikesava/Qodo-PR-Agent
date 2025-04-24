@@ -13,4 +13,11 @@ print("Current date and time:", current_time)
 password = os.getenv('PASSWORD')
 # print('hello world! >>>>> ' + password)
 
+def my_function(fname):
+  print(fname + " Refsnes")
+
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
+
 
